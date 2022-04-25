@@ -3,5 +3,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <!--\u0020 is single whitespace character in UTF-8-->
     <string name="details_origin">Origin:\u0020</string>
+    <string name="energy_level">Energy Level</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.iserhand.inviochallengefinal.CatDetailsActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,27 +15,161 @@
             android:id="@+id/detailImg"
             android:layout_width="175dp"
             android:layout_height="175dp"
-            android:layout_marginTop="20dp"
             android:layout_gravity="center"
-            android:scaleType="fitXY"/>
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY" />
 
         <TextView
             android:id="@+id/textDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="8pt" />
+            android:textSize="10pt" />
+
         <TextView
-            android:textSize="8pt"
             android:id="@+id/textOrigin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            />
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/textWikiUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/textLifeSpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="8pt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="@string/energy_level"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/energy_level"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="Shedding Level"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/shedding_level"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="Social Needs"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/social_needs"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="Child Friendly"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/child_friendly"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="Dog Friendly"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/dog_friendly"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="Vocalisation"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/vocalisation"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:rating="3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:text="Health Issues"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <RatingBar
+            android:id="@+id/health_issues"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:rating="3" />
+
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

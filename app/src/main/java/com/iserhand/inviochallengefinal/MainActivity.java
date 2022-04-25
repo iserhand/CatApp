@@ -248,6 +248,14 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     data.setIsFav(0);
                 }
+                data.setLife_span(jsonObject.getString("life_span"));
+                data.setEnergy_level(jsonObject.getInt("energy_level"));
+                data.setShedding_level(jsonObject.getInt("shedding_level"));
+                data.setSocial_needs(jsonObject.getInt("social_needs"));
+                data.setChild_friendly(jsonObject.getInt("child_friendly"));
+                data.setDog_friendly(jsonObject.getInt("dog_friendly"));
+                data.setVocalisation(jsonObject.getInt("vocalisation"));
+                data.setHealth_issues(jsonObject.getInt("health_issues"));
                 catArrayList.add(data);
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -284,6 +292,14 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     data.setIsFav(0);
                 }
+                data.setLife_span(jsonObject.getString("life_span"));
+                data.setEnergy_level(jsonObject.getInt("energy_level"));
+                data.setShedding_level(jsonObject.getInt("shedding_level"));
+                data.setSocial_needs(jsonObject.getInt("social_needs"));
+                data.setChild_friendly(jsonObject.getInt("child_friendly"));
+                data.setDog_friendly(jsonObject.getInt("dog_friendly"));
+                data.setVocalisation(jsonObject.getInt("vocalisation"));
+                data.setHealth_issues(jsonObject.getInt("health_issues"));
                 catArrayList.add(data);
             } catch (JSONException e) {
                 e.printStackTrace();

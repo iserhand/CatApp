@@ -115,6 +115,14 @@ public class CatAdapter extends RecyclerView.Adapter<CatAdapter.ViewHolder> {
             intent.putExtra("catOrigin",catArrayList.get(position).getOrigin());
             intent.putExtra("wikiUrl",catArrayList.get(position).getWiki_url());
             intent.putExtra("isFav",catArrayList.get(position).getIsFav());
+            intent.putExtra("life_span",catArrayList.get(position).getLife_span());
+            intent.putExtra("energy_level",catArrayList.get(position).getEnergy_level());
+            intent.putExtra("shedding_level",catArrayList.get(position).getShedding_level());
+            intent.putExtra("social_needs",catArrayList.get(position).getSocial_needs());
+            intent.putExtra("child_friendly",catArrayList.get(position).getChild_friendly());
+            intent.putExtra("dog_friendly",catArrayList.get(position).getDog_friendly());
+            intent.putExtra("vocalisation",catArrayList.get(position).getVocalisation());
+            intent.putExtra("health_issues",catArrayList.get(position).getHealth_issues());
             mContext.startActivity(intent);
         }
     }
