@@ -88,8 +88,8 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(columns[4], cat.getImage());
         contentValues.put(columns[5], cat.getOrigin());
         contentValues.put(columns[6], cat.getWiki_url());
-        contentValues.put(columns[7], cat.getLife_span());
-        contentValues.put(columns[8], cat.getIsFav());
+        contentValues.put(columns[7], cat.getIsFav());
+        contentValues.put(columns[8], cat.getLife_span());
         contentValues.put(columns[9], cat.getEnergy_level());
         contentValues.put(columns[10], cat.getShedding_level());
         contentValues.put(columns[11], cat.getSocial_needs());
