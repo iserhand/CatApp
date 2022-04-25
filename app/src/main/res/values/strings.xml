@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CatApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--\u0020 is single whitespace character in UTF-8-->
+    <string name="details_origin">Origin:\u0020</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

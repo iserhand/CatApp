@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_baseline_star_24.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_baseline_star_border_24.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_cat_playing_with_ball_of_yarn_silhouette.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_cat_playing_with_ball_of_yarn_silhouette2.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1775" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_mainmenu_favorited.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/ic_mainmenu_notfavorited.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable-v24/splash_screen.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable/ic_cat_playing_with_ball_of_yarn_silhouette.xml" value="0.1" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.186" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/layout/activity_cat_details.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/layout/activity_favorites.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/layout/cats_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/menu/cat_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1775" />
+        <entry key="..\:/Users/iserh/AndroidStudioProjects/InvioChallengeFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
